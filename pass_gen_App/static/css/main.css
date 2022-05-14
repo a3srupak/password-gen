@@ -1,0 +1,143 @@
+#content-holder {
+  background-color: #f2f2f6;
+}
+#top {
+  background-image: url(../../../../../cdn2.hubspot.net/hubfs/486579/technology-scroll/legal/header_bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.selected {
+  font-weight: 700px;
+  border-bottom: 2px solid #0cb754;
+}
+.pointed {
+  cursor: pointer;
+}
+.hide * {
+  display: none;
+}
+#content .hide {
+  display: none;
+}
+/*.show *{
+    display: block;
+}*/
+#content {
+  background-color: #ffffff;
+}
+#content * {
+  margin-bottom: 10px;
+}
+.privacy_policy {
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+.policy_container {
+  background-color: #ffffff;
+}
+/*Subnav*/
+.subnav {
+  border-bottom: 1px solid #d3d4de;
+}
+.subnav a {
+  color: #41424e;
+  font-size: 14px;
+  line-height: 40px;
+}
+.subnav .sub_element {
+  text-align: center;
+}
+/*Privacy Policy text*/
+.content-block {
+  border-bottom: 1px solid #d3d4de;
+  padding: 23px;
+}
+.content-block a {
+  color: #008941;
+}
+.content-block h2 {
+  font-size: 18px!important;
+  line-height: 24px;
+  color: #41424e;
+  padding-bottom: 12px;
+}
+.content-block h3 {
+  font-size: 16px!important;
+  line-height: 25px;
+  color: #41424e;
+}
+.content-block h4 {
+  font-size: 14px!important;
+  color: #41424e;
+  font-weight: 700;
+}
+.content-block ul,
+.content-block li,
+.content-block p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 0;
+  color: #1e222a;
+}
+.content-block img {
+  float: right;
+}
+.content-block .content_h2 {
+  cursor: pointer;
+}
+.content-block table {
+  background-color: #ffffff;
+  word-wrap: break-word;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  table-layout: auto;
+}
+.content-block table p {
+  padding: 10px 20px;
+  padding-left: 0;
+}
+.content-block table th,
+.content-block table td {
+  border: 1px solid #d3d4de;
+}
+@media only screen and (min-width: 720px) and (max-width: 959px), only screen and (max-width: 720px) {
+  .content-block table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+/*Left navigation*/
+#leftnav {
+  padding-right: 60px;
+}
+#leftnav .sm_section {
+  padding: 0;
+  border-bottom: 1px solid #d3d4de;
+  width: 100%;
+}
+#leftnav .sm_section a {
+  color: #4d5566;
+  font-size: 14px;
+  line-height: 40px;
+}
+#leftnav .sm_section ul {
+  list-style-type: none;
+}
+#leftnav .sm_section img {
+  float: right;
+  margin-top: 7px;
+}
+@media only screen and (max-width: 720px) {
+  #leftnav {
+    padding-right: 0;
+  }
+  #leftnav .sm_section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
